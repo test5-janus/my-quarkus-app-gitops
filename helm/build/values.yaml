@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app
+  namespace: my-quarkus-app-dev
+  cluster: .apps.cluster-hk8jl.hk8jl.sandbox1377.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/test5-janus/my-quarkus-app
+  org: test5-janus
+  name: my-quarkus-app
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app
+  tag: latest
